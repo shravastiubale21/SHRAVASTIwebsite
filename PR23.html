@@ -1,0 +1,231 @@
+﻿<html>
+<head>
+    <title>WPD PR23</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importing a clean modern font -->
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #be1717;
+            --accent-color: #3498db;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            color: var(--text-color);
+        }
+
+        /* --- Header Section --- */
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+            header h1 {
+                margin: 1;
+                font-size: 2.5rem;
+                letter-spacing: 1px;
+            }
+
+        /* --- Navigation Bar --- */
+        nav {
+            background-color: var(--primary-color);
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-weight: 400;
+                transition: color 0.3s;
+            }
+
+                nav a:hover {
+                    color: var(--accent-color);
+                }
+
+        /* --- Main Content --- */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }
+
+        /* --- Responsive Grid --- */
+        .practical-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        /* --- Card Design --- */
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #eee;
+        }
+
+            .card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            }
+
+            .card h3 {
+                margin-top: 0;
+                color: #2a5298;
+            }
+
+            .card p {
+                font-size: 0.9rem;
+                color: #0c3c87;
+                margin-bottom: 20px;
+            }
+
+        /* --- Button Design --- */
+        .btn-view {
+            display: inline-block;
+            background-color: dodgerblue;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+            .btn-view:hover {
+                background-color: #1e3c72;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MSBTE WEB PAGE DESIGNING Practicals</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Practicals</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2 class="section-title">List of Practicals</h2>
+
+        <div class="practical-grid">
+
+            <div class="card">
+                <h3>Practical 1</h3>
+                <p>Work with basic HTML</p>
+                <a href="PR1.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 2</h3>
+                <p>Use of heading tags</p>
+                <a href="PR2.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 3</h3>
+                <p>Work on paragraph</p>
+                <a href="PR3.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 4</h3>
+                <p>Block level tags</p>
+                <a href="PR4.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 5</h3>
+                <p>Text level tags</p>
+                <a href="PR5.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 6</h3>
+                <p>Implement the border properties</p>
+                <a href="PR6.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 7</h3>
+                <p>Use of special charachters</p>
+                <a href="PR7.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 8</h3>
+                <p>Ordered and Unordered list</p>
+                <a href="PR8.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 9</h3>
+                <p>Use different types lists</p>
+                <a href="PR9.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 10</h3>
+                <p>HTML Web page link</p>
+                <a href="PR10.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 11</h3>
+                <p>Use of links</p>
+                <a href="PR11.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 12</h3>
+                <p>Use of links with images</p>
+                <a href="PR12.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 13</h3>
+                <p>Use of colors for links</p>
+                <a href="PR13.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 14</h3>
+                <p>foreground nd background with various attributes</p>
+                <a href="PR14.html" class="btn">VIEW</a>
+            </div>
+            <div class="card">
+                <h3>Practical 15</h3>
+                <p>hyperlink and set the width and height property</p>
+                <a href="PR15.html" class="btn">VIEW</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <h2>CONTACT INFORMATION</h2>
+    <address>
+        TOPIC   :PRACTICAL 23<br />
+        NAME    :Shravasti Ubale<br />
+        COLLEGE : MET BHUJBAL KNOWLEDGE CITY <br />
+        BRANCH  :FYIF <br />
+        ROLL NO.:39 <br />
+        SUBJECT :WPD <br />
+        Email   :shravastiubale21@gmail.com
+    </address>
+</body>
+</html>

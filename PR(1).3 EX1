@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>SNU_PR3_EX1</title>
+</head>
+<body>
+    <p>
+        The Maharashtra State Board of Technical Education (MSBTE) is an
+        autonomous board of education in the state of Maharashtra, India. It
+        designs and implements diploma, post diploma and advanced diploma
+        programs to affiliated institutions. 
+
+        Polytechnic Building, 4th floor, 49, Kherwadi, Bandra (E), Mumbai-
+        400051.
+        <center>
+            Maharashtra State Board of Technical Education
+            (MSBTE)
+        </center>is an autonomous board of education in the state of
+        Maharashtra, India. It designs and implements <b>diploma </b>,
+        <i>post diploma </i>and <u>advanced diploma programs</u> to
+        affiliated institutions.
+        MSBTE located at:
+<pre>Government Polytechnic Building,
+4th floor,
+49, Kherwadi,
+Bandra (E),
+Mumbai-400&nbsp;051.</pre>
+
+    </p>
+</body>
+</html>

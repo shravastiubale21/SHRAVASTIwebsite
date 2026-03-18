@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>SNU _PR1.EX1</title>
+</head>
+<body>
+    Web Page Designing (312004)
+
+    3
+
+    <p>This is paragraph one</p>
+    <hr>
+    Experiment 1
+<pre>
+NAME:SHRAVASTI NITIN UBALE
+POST:STUDENT
+COLLEGE:MET INSTITUTE OF TECHNOLOGY POLYTECHNIC
+CLASS:FYIF
+ADDRESS:JAIL ROAD,NASHIK
+</pre>
+    <p>
+        A HTML heading or HTML h tag can be defined as a title or a subtitle
+        which you want to display on the webpage.<br> it is displayed on the
+        browser in the bold format and size of the text depends on the number of
+        heading.
+    </p>
+
+</body>
+</html>

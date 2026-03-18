@@ -1,0 +1,45 @@
+﻿<html>
+<head>
+    <title>Animal Table</title>
+</head>
+<body>
+
+    <table border="1" width="70%" align="center">
+        >
+        <tr>
+            <th>Name</th>
+            <th>Image</th>
+            <th>Category</th>
+        </tr>
+
+       
+        <tr align="center">
+            <td>Elephant</td>
+            <td><img src="elephant.jpg" alt="elephant" width="200"></td>
+            <td>Animal</td>
+        </tr>
+
+        
+        <tr align="center">
+            <td>Eagle</td>
+            <td><img src="eagle.png" alt="eagle" width="200"></td>
+            <td>Bird</td>
+        </tr>
+
+       
+        <tr align="center">
+            <td>Deer</td>
+            <td><img src="deer.jpg" alt="deer" width="200"></td>
+            <td>Animal</td>
+        </tr>
+
+       
+        <tr align="center">
+            <td>Swan</td>
+            <td><img src="swan.jpg" alt="swan" width="200"></td>
+            <td>Bird</td>
+        </tr>
+    </table>
+
+</body>
+</html>
